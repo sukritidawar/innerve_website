@@ -1,0 +1,68 @@
+html{
+  background: url('backgroundtech.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 7em;
+  font-weight: bold;
+  color: #66b3ff;
+  font-family: Impact, Helvetica, sans-serif;
+}
+.menu-bar{
+  background: #3399ff;
+  text-align: center;
+}
+.bottom-bar{
+  background: #3399ff;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+.bottom-bar ul li{
+  width: 120px;
+  margin: 4px;
+  padding: 4px;
+}
+.bottom-bar ul li a{
+  text-decoration: none;
+  color: #66ffff;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.menu-bar ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a{
+  text-decoration: none;
+  color: #66ffff;
+}
+.bottom-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+
+.activetext, .menu-bar ul li:hover{
+  background: #66b3ff;
+  border-radius: 2px;
+}
